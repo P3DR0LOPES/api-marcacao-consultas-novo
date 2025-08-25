@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-08-25 19:43:59.045412-03:00 database: flush
 org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/labsfiap/Downloads/api-marcacao-consultas-main_Felipe/data/consultas_db.mv.db [2.2.224/7]" [50000-224]
 	at org.h2.message.DbException.get(DbException.java:212)
@@ -2556,3 +2557,8 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/labsfia
 	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
 	... 59 more
+=======
+2025-03-24 19:44:03.200896-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]EMAIL"; expected "EXPLAIN, EXECUTE"; SQL statement:
+EMAIL [42001-232]
+>>>>>>> b4631739bb87a561f07808f07220a0fbabc60a8e
